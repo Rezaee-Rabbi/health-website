@@ -18,6 +18,7 @@ p {
 .flexible-container {
     display: flex;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .up-down {
@@ -28,7 +29,9 @@ p {
 .top-half {
     width: 50%;
     margin-left: 5%;
+
 }
+
 
 .top-half a {
     margin-top: 50px;
