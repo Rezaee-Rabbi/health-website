@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -19,9 +20,18 @@ section {
     margin-bottom: 150px;
 }
 
+.up-down {
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+
 .top-half {
     width: 50%;
     margin-left: 10%;
+}
+
+.top-half a {
+    margin-top: 50px;
 }
 
 .top-half img {
@@ -34,11 +44,19 @@ section {
 }
 
 .link-button {
-    margin-top: 10px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 30px;
     background-image: linear-gradient(#0387F6, #437196);
     border-radius: 20px;
     color: white;
+}
+
+.about-me {
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+#top-right {
+    margin-right: 40px;
 }
