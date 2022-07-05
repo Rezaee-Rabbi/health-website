@@ -12,12 +12,12 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .up-down {
@@ -27,7 +27,7 @@ section {
 
 .top-half {
     width: 50%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .top-half a {
@@ -46,10 +46,12 @@ section {
 .link-button {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 15px 40px;
     background-image: linear-gradient(#0387F6, #437196);
     border-radius: 20px;
     color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
 
 .about-me {
@@ -59,4 +61,32 @@ section {
 
 #top-right {
     margin-right: 40px;
+}
+
+.my-recipies {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.shaddow {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.top-half img {
+    display: flex;
+    justify-content: center;
+    padding: 20px 25px;
+    width: 90%;
+}
+
+.item {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
 }
