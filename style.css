@@ -117,11 +117,10 @@ p {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(23, 3, 54);
+    background-color: rgb(20, 21, 22);
     color: white;
     height: 150px;
     padding: 30px;
-    margin-bottom: 50PX;
 }
 
 .footer h1 {
